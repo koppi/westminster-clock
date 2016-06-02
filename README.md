@@ -14,10 +14,10 @@ sudo make install
 
 With ```crontab -e``` add to your crontab:
 ```bash
- 0 * * * * chime-westminster hour
-15 * * * * chime-westminster quarter
-30 * * * * chime-westminster half
-45 * * * * chime-westminster three-quarter
+ 0 * * * * westminster-clock hour
+15 * * * * westminster-clock quarter
+30 * * * * westminster-clock half
+45 * * * * westminster-clock three-quarter
 ```
 
 – Tested on Raspbian 8.1 and Ubuntu 16.04.
