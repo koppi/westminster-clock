@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+if [ -z "$1" ]
+  then
+    echo "usage: westminster-clock [hour|quarter|half|three-quarter] "
+    exit 1
+fi
+
+# play wav with given volume
+play-wav 0.075 /usr/share/sounds/westminster-clock/$1.wav
