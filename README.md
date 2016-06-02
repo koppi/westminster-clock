@@ -4,6 +4,7 @@ The [Westminster Quarters](https://en.wikipedia.org/wiki/Westminster_Quarters) i
 
 #### Installation
 
+To setup a virtual westminster clock that get's triggered with a cronjob, run:
 ```bash
 sudo apt -y install git make sox alsa-utils ntp
 git clone https://github.com/koppi/westminster-clock
