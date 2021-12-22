@@ -20,7 +20,7 @@ With ```crontab -e``` add to your crontab:
 45 * * * * westminster-clock three-quarter
 ```
 
-– Tested on Raspbian 8.1 and Ubuntu 16.04.
+– Tested on Raspbian 8.1 and Ubuntu 16.04 - Ubuntu 21.04.
 
 #### Credits
 
