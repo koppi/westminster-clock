@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#
+# Play wav with given volume
+#
+# Tools required:
+#
+# sudo apt -y install sox alsa-utils
+#
+
+if [ ! $# -eq 2 ]
+  then
+    echo "usage: play-wav [volume] [file.wav]"
+    exit 1
+fi
+
+VOL=$1
+F=$2
+
+sox -v $VOL -t wav $F -t wav - | aplay -q -
