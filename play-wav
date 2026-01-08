@@ -16,4 +16,4 @@ fi
 VOL=$1
 F=$2
 
-sox -v $VOL -t wav $F -t wav - | aplay -q -
+sox -v $VOL -t wav $F -t wav - | XDG_RUNTIME_DIR=/run/user/$(id -u) aplay -q -
